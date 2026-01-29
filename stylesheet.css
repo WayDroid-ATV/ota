@@ -1,8 +1,24 @@
+:root {
+  --bg-color: #fff;
+  --txt-color: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #202124;
+    --txt-color: #ebebeb;
+  }
+}
+
 html, body {
   min-height: 100%;
   width: 100%;
   margin: 0;
+  padding: 20px 0 20px 0;
+  overflow-x: hidden;
   font-family: 'Google Sans', 'Arial', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--txt-color);
 }
 
 body {
@@ -12,7 +28,7 @@ body {
 }
 
 body > * {
-  margin: 0 0 40px 0;
+  margin: 20px 0 20px 0;
 }
 
 body > div {
@@ -21,7 +37,7 @@ body > div {
 }
 
 table {
-  border: 1px solid #000;
+  border: 1px solid var(--txt-color);
   border-radius: 15px;
   border-spacing:0
 }
@@ -33,12 +49,17 @@ p, th, td {
 }
 
 th {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid var(--txt-color);
 }
 
 h1, h2, h3 {
   width: 100%;
   text-align: center;
+}
+
+a {
+  color: #1f6edd;
+  text-decoration: none;
 }
 
 a.button {
@@ -84,5 +105,4 @@ a.button.tone2:hover, button.tone2:hover {
 #icon {
   height: 200px;
   width: 200px;
-  margin: 0;
 }
