@@ -3,10 +3,22 @@
   --txt-color: #000;
 }
 
+.dark {
+  display: none;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #202124;
     --txt-color: #ebebeb;
+  }
+
+  .dark {
+    display: inherit;
+  }
+
+  .light {
+    display: none;
   }
 }
 
@@ -34,11 +46,12 @@ body > * {
 body > div {
   max-width: 100%;
   overflow-x: auto;
+  box-shadow: color-mix(in srgb, rgb(0,0,0) 30%,transparent) 0 1px 1px 0, color-mix(in srgb, rgb(0,0,0) 15%,transparent) 0 1px 6px 2px;
+  border-radius: 15px;
 }
 
 table {
-  border: 1px solid var(--txt-color);
-  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.05);
   border-spacing:0
 }
 
@@ -49,7 +62,7 @@ p, th, td {
 }
 
 th {
-  border-bottom: 1px solid var(--txt-color);
+  height: 35px;
 }
 
 h1, h2, h3 {
@@ -102,7 +115,7 @@ a.button.tone2:hover, button.tone2:hover {
   opacity: 0.9;
 }
 
-#icon {
-  height: 200px;
-  width: 200px;
+ #banner-dark, #banner-light {
+  height: 110px;
+  object-fit: contain;
 }
