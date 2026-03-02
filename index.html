@@ -16,27 +16,40 @@
   <img id="banner-dark" class="dark" src="img/banner-dark.png" alt="icon" />
   <img id="banner-light" class="light" src="img/banner-light.png" alt="icon" />
   <h1>WayDroid-ATV OTA server</h1>
-  <p>OTA server up and running</p>
+  <p>Join our <a href="https://t.me/WayDroidATV">Telegram channel</a> for latest news</p>
   <p>Check <a href="https://github.com/supechicken/waydroid-androidtv-build/releases">here</a> for release notes/installation instructions</p>
+  <div id="channel-selector">
+    <p>Select a channel to view</p>
+    <select>
+      <option value="a13_tv">Android TV 13</option>
+  <!--<option value="a14_tv">Android TV 14</option>
+      <option value="a16_tv">Android TV 16</option>
+      <option value="a14">Android 14</option>
+      <option value="a15">Android 15</option>-->
+      <option value="a16">Android 16</option>
+    </select>
+  </div>
   <h2>Latest system images</h2>
-  <div>
+  <div class="list">
     <table id="system-images">
       <tr>
         <th>Architecture</th>
+        <th>ROM version</th>
         <th>Image type</th>
-        <th>Release date</th>
+        <th>Image release date</th>
         <th>Security patch level</th>
         <th>Download</th>
       </tr>
     </table>
   </div>
   <h2>Latest vendor images</h2>
-  <div>
+  <div class="list">
     <table id="vendor-images">
       <tr>
         <th>Architecture</th>
+        <th>ROM version</th>
         <th>Image type</th>
-        <th>Release date</th>
+        <th>Image release date</th>
         <th>Security patch level</th>
         <th>Download</th>
       </tr>

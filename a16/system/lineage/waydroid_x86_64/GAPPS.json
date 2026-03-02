@@ -1,0 +1,14 @@
+{
+  "response": [
+    {
+      "datetime": 1772446775,
+      "filename": "lineage-23.2-20260302-GAPPS-waydroid_x86_64-system.zip",
+      "id": "397bc8f4505a95ed7035cf22d6e5cad750c1430b12f1d506afde7677401016a0",
+      "romtype": "GAPPS",
+      "asb": "2026-02-01",
+      "size": 1284708182,
+      "url": "https://sourceforge.net/projects/waydroid-atv/files/images/system/waydroid_x86_64/lineage-23.2-20260302-GAPPS-waydroid_x86_64-system.zip/download",
+      "version": "23.2"
+    }
+  ]
+}

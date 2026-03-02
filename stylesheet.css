@@ -13,6 +13,11 @@
     --txt-color: #ebebeb;
   }
 
+  .list {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: none !important;
+  }
+
   .dark {
     display: inherit;
   }
@@ -46,13 +51,28 @@ body > * {
 body > div {
   max-width: 100%;
   overflow-x: auto;
-  box-shadow: color-mix(in srgb, rgb(0,0,0) 30%,transparent) 0 1px 1px 0, color-mix(in srgb, rgb(0,0,0) 15%,transparent) 0 1px 6px 2px;
-  border-radius: 15px;
+}
+
+select {
+  width: 280px;
+  height: 50px;
+  font-size: 1.2rem;
+  border: 1px solid rgb(from var(--txt-color) r g b / 0.3);
+  border-radius: 30px;
+  background-color: var(--bg-color);
+  color: var(--txt-color);
+  appearance: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+select:focus {
+  outline: none;
 }
 
 table {
-  background-color: rgba(255, 255, 255, 0.05);
-  border-spacing:0
+  padding: 0 20px 5px 20px;
+  border-spacing: 0;
 }
 
 p, th, td {
@@ -71,7 +91,7 @@ h1, h2, h3 {
 }
 
 a {
-  color: #1f6edd;
+  color: #267df5;
   text-decoration: none;
 }
 
@@ -84,7 +104,7 @@ a.button, button {
   font-family: 'Google Sans', 'Arial', sans-serif;
   text-decoration: none;
   background-color: transparent;
-  color: rgb(26, 115, 232);
+  color: #267df5;
   font-size: 1rem;
   font-weight: 600;
   padding: 10px 20px;
@@ -115,7 +135,16 @@ a.button.tone2:hover, button.tone2:hover {
   opacity: 0.9;
 }
 
- #banner-dark, #banner-light {
+.list {
+  border-radius: 30px;
+  border: 1px solid rgb(from var(--txt-color) r g b / 0.3);
+}
+
+#banner-dark, #banner-light {
   height: 110px;
   object-fit: contain;
+}
+
+#channel-selector {
+  margin-top: 0;
 }

@@ -1,0 +1,14 @@
+{
+  "response": [
+    {
+      "datetime": 1772446775,
+      "filename": "lineage-23.2-20260302-MAINLINE-waydroid_x86_64-vendor.zip",
+      "id": "2a4d9594a70a82e22bb70a87bb12a2c5d856e970efcf972b399abd729fc2d251",
+      "romtype": "MAINLINE",
+      "asb": "2026-02-01",
+      "size": 227286417,
+      "url": "https://sourceforge.net/projects/waydroid-atv/files/images/vendor/waydroid_x86_64/lineage-23.2-20260302-MAINLINE-waydroid_x86_64-vendor.zip/download",
+      "version": "23.2"
+    }
+  ]
+}
