@@ -1,0 +1,14 @@
+{
+  "response": [
+    {
+      "datetime": 1773368703,
+      "filename": "lineage-23.2-20260313-VANILLA-waydroid_arm64-system.zip",
+      "id": "7f6e0c1143f5360251992bf97521b0fdb7381f7cc2d1b326bd93f30ae7f3ddd5",
+      "romtype": "VANILLA",
+      "asb": "2026-02-01",
+      "size": 927771924,
+      "url": "https://sourceforge.net/projects/waydroid-atv/files/images/system/waydroid_arm64/lineage-23.2-20260313-VANILLA-waydroid_arm64-system.zip/download",
+      "version": "23.2"
+    }
+  ]
+}

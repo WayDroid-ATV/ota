@@ -1,0 +1,14 @@
+{
+  "response": [
+    {
+      "datetime": 1773339245,
+      "filename": "lineage-23.0-20260312-VANILLA-waydroid_tv_x86_64-system.zip",
+      "id": "26715a7532d56502e1daeef34f0d65991697bc45ee5c9728513f57060bb04685",
+      "romtype": "VANILLA",
+      "asb": "2026-02-01",
+      "size": 730536579,
+      "url": "https://sourceforge.net/projects/waydroid-atv/files/images/system/waydroid_tv_x86_64/lineage-23.0-20260312-VANILLA-waydroid_tv_x86_64-system.zip/download",
+      "version": "23.0"
+    }
+  ]
+}
