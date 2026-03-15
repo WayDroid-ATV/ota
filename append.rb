@@ -5,7 +5,7 @@ require 'digest/sha2'
 
 ASB_LEVEL = ARGV[0]
 
-%w[a13 a13_tv a14 a14_tv a15 a16_qpr0 a16_qpr2 a16_tv].each do |variant|
+%w[a13 a13-tv a14 a14-tv a15 a16-qpr0 a16-qpr2 a16-tv].each do |variant|
   %w[system vendor].each do |img|
     %w[arm64 x86_64].each do |arch|
       %w[GAPPS VANILLA MAINLINE].each do |type|
@@ -19,11 +19,11 @@ ASB_LEVEL = ARGV[0]
                 'lineage-21.0'
               when /^a15/
                 'lineage-22.2'
-              when 'a16_qpr0'
+              when 'a16-qpr0'
                 'lineage-23.0'
-              when 'a16_qpr2'
+              when 'a16-qpr2'
                 'lineage-23.2'
-              when 'a16_tv'
+              when 'a16-tv'
                 'lineage-23.{0,2}'
               end
 
