@@ -53,7 +53,7 @@ ASB_LEVEL = ARGV[0]
         next if json[:response].empty?
         json[:response].sort_by! { |e| - e[:datetime] }
 
-        File.write(json_path, JSON.pretty_generate(json))
+        File.write(json_path, JSON.pretty_generate(json) + "\n")
       end
     end
   end
