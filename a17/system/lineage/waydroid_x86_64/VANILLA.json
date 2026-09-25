@@ -1,0 +1,14 @@
+{
+  "response": [
+    {
+      "datetime": 1790373685,
+      "filename": "lineage-24.0-20260926-VANILLA-waydroid_x86_64-system.zip",
+      "id": "182ef734924fd4295bcaeb3712e0fb5ac8ade454353d6910a43c2df7f7ac6203",
+      "romtype": "VANILLA",
+      "asb": "2026-09-01",
+      "size": 1159314684,
+      "url": "https://sourceforge.net/projects/waydroid-atv/files/images/system/waydroid_x86_64/lineage-24.0-20260926-VANILLA-waydroid_x86_64-system.zip/download",
+      "version": "24.0"
+    }
+  ]
+}

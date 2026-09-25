@@ -5,7 +5,7 @@ require 'digest/sha2'
 
 ASB_LEVEL = ARGV[0]
 
-%w[a13 a13-tv a14 a14-tv a15 a16-qpr0 a16-qpr2 a16-tv].each do |variant|
+%w[a13 a13-tv a14 a14-tv a15 a16-qpr0 a16-qpr2 a16-tv a17].each do |variant|
   %w[system vendor].each do |img|
     %w[arm64 x86_64].each do |arch|
       %w[GAPPS VANILLA MAINLINE].each do |type|
@@ -25,6 +25,8 @@ ASB_LEVEL = ARGV[0]
                 'lineage-23.2'
               when 'a16-tv'
                 'lineage-23.{0,2}'
+              when 'a17'
+                'lineage-24.0'
               end
 
         if File.exist?(json_path)

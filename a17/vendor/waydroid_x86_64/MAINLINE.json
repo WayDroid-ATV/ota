@@ -1,0 +1,14 @@
+{
+  "response": [
+    {
+      "datetime": 1790237476,
+      "filename": "lineage-24.0-20260926-MAINLINE-waydroid_x86_64-vendor.zip",
+      "id": "065ad73ebce1f78cfad8c007fbfd582bdce8521e141e46afc8d1d22bab25e7b6",
+      "romtype": "MAINLINE",
+      "asb": "2026-09-01",
+      "size": 261009653,
+      "url": "https://sourceforge.net/projects/waydroid-atv/files/images/vendor/waydroid_x86_64/lineage-24.0-20260926-MAINLINE-waydroid_x86_64-vendor.zip/download",
+      "version": "24.0"
+    }
+  ]
+}
